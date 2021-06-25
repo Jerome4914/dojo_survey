@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">  
+
+</head>
+<body class="result">
+    <h1 class="color">I hear you're in love with {{request.session.character}}</h1>
+    <h2 class="color">You would move to {{request.session.region}} in a heartbeat! The thing you love most about {{request.session.character}} is {{request.session.gender}} {{request.session.special}}</h2>
+</body>
+</html>

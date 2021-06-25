@@ -1,0 +1,18 @@
+.color{
+    color:greenyellow;
+}
+
+.result{
+    background-color: grey;
+}
+
+.form-radio{
+    display: inline-block;
+}
+
+.form-type-radio input[type="radio"]{
+    margin-right: 10px;
+}
+button {
+margin-top: 15px;
+}
